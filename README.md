@@ -12,6 +12,7 @@ View对象绑定---使用注解，findViewById最好的替代者
 }`
 
 在build.gradle(Module:app)里加入：
+
 `apply plugin: 'android-apt'`
 
 `dependencies {
@@ -19,7 +20,7 @@ View对象绑定---使用注解，findViewById最好的替代者
     compile 'com.jakewharton:butterknife:8.6.0'
 }`
 
-3.安装插件
+2.安装插件
 搜索Android ButterKnife Zelenzny,安装好以后重启Android Studio
 
-4.在布局文件R.layout.activity_main上右键，选择Generate > Generate Butternife Injections
+3.在布局文件R.layout.activity_main上右键，选择Generate > Generate Butternife Injections
